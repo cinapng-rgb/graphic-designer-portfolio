@@ -3,15 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-
+    <title>Анастасия Антонова — Графический дизайнер</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="header">
+        <a href="index.html" class="logo">
+        Анастасия Антонова
+        </a>
 
-    <h1>Привет, я Настя!</h1>
+        <nav>
+            <a href="#about">обо мне</a>
+            <a href="#stack">программы</a>
+            <a href="#portfolio">портфолио</a>
+            <a href="#contacts">контакты</a>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Анастасия Антонова</h1>
+                <p>Графический дизайнер</p>
+                <p>Создаю фирменный стиль, логотипы и дизайн полиграфии.</p>
+                <a href="https://t.me/username">Связаться</a>
+            </div>
+
+            <div class="hero-photo">
+                <img src="images/hero/photo.jpg" alt="Фотография Анастасии Антоновой">
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Обо мне</h2>
+            <p>
+                Я графический дизайнер, специализируюсь на создании визуальных
+                идентичностей, логотипов и печатной продукции.
+            </p>
+        </section>
+
+        <section id="stack">
+            <h2>Работаю в следующих программах:</h2>
+            <p>
+                1. ...
+                2. ...
+            </p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Портфолио</h2>
+
+            <div class="portfolio-grid">
+
+                <a href="assets/portfolio/project1.pdf" target="_blank">
+                    Проект 1 (PDF)
+                </a>
+
+                <a href="assets/portfolio/project2.pdf" target="_blank">
+                    Проект 2 (PDF)
+                </a>
+
+                <a href="assets/portfolio/project3.pdf" target="_blank">
+                    Проект 3 (PDF)
+                </a>
+
+            </div>
+        </section>
+
+        <section id="contacts">
+            <h2>Контакты</h2>
+            <p>Email: example@mail.com</p>
+            <p>Telegram: @username</p>
+        </section>
+        
+    </main>    
 
     <script src="script.js"></script>
-
+    <button id="toTopBtn">↑</button>
 </body>
 </html>
+
+<script src="script.js"></script>

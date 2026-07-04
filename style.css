@@ -1,3 +1,91 @@
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+section {
+    padding: 80px;
+}
+
+
 body {
     margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    gap: 40px;
+}
+
+.hero-photo img {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.portfolio-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.portfolio-grid a {
+    display: block;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#toTopBtn {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+
+    width: 50px;
+    height: 50px;
+
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+
+    background: black;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+    display: none; /* скрыта по умолчанию */
 }
